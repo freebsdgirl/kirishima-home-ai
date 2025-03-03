@@ -32,7 +32,8 @@ Unlike traditional AI assistants, Kirishima Home AI is built to be:
 ## 🔧 Recommended Hardware Setup
 | Component      | Recommended Model  | Notes |
 |---------------|--------------------|---------------------|
-| **AI Server** | NUC 12 Pro / Mini PC | Low power, compact |
+| **Automation Server** | NUC 12 Pro / Mini PC | Handles smart home integration & API processing |
+| **AI Model Server** | Workstation with RTX 6000 Ada / A100 | Required for LLaMA 3 inference |
 | **TTS GPU**   | RTX 3080 Ti | Handles Tacotron 2 fast |
 | **Storage**   | 2TB NVMe SSD | Fast AI response times |
 | **Microphone** | Rode NTG4+ (Living Room) | Best for noisy spaces |
