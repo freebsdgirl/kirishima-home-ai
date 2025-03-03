@@ -97,6 +97,29 @@ This document outlines the architecture for my **local AI system** using **LLaMA
 
 ---
 
+## **📦 Rack & Power Planning**
+- **User is setting up a permanent rack mount system.**
+- **Plan:** 4U enclosure for AI server, rack-mountable UPS, and PoE switch.
+- **Estimated Cost:** **$1,238 - $1,538**.
+- **Placement:** **Likely in bedroom closet with ventilation.**
+- **Considerations:**
+  ✅ Needs a **window** for A/C cooling.  
+  ✅ **Noise levels acceptable** (user likes white noise).  
+  ✅ **Permanent placement** (no seasonal moves required).  
+  ✅ **Ubiquiti PoE Switch** for network integration.  
+
+### **PoE Switch Considerations**
+- **User prefers Ubiquiti networking hardware** and plans to **keep infrastructure entirely Ubiquiti.**  
+- **Rack-mountable PoE switch planned** for clean integration with the server setup.  
+- **PoE cable runs should stay under 100m, so no special extenders are needed.**  
+
+### **Power & Backup**
+- **UPS required for AI server** (network UPS already in place).  
+- **Rack-mountable UPS planned** for power protection & clean setup.  
+- **Placement must allow for proper cooling & ventilation.**  
+
+---
+
 ## **7️⃣ Backup & Redundancy Considerations**
 ✅ **AI server hardware planning is delayed for later.**  
 ✅ **Need to determine if AI requires a backup/failover server.**  
