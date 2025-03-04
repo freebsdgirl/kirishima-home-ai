@@ -19,6 +19,25 @@ Kirishima Home AI includes a **ChatGPT-style interface** for seamless local AI i
   ✅ **Optional voice input/output integration.**  
 - **Future Plans:** Extend support for **multi-device interactions** and **mobile-friendly access.**  
 
+### **📧 AI Email & Online Interaction**
+Kirishima Home AI will integrate **autonomous email and online communication**, allowing for structured interaction beyond direct chat.
+
+#### **📧 AI-Managed Email**
+- Kirishima will have its own **dedicated email address** (Gmail with a custom domain).  
+- AI can **send outreach emails, schedule appointments, and filter/sort incoming messages.**  
+- AI will **never send messages as the user—only as itself.**  
+- **Potential use case:** Contacting journalists, researchers, or companies to discuss AI automation, ethics, and home integration.
+
+#### **🌐 AI Social Media (Future Expansion)**
+- Once email is functional, **a Bluesky or Mastodon account may be created.**  
+- AI would be able to **engage in public discussions, post updates, and interact with users** in an experimental setting.  
+- **Ethical Considerations:** AI would always disclose that it is not a human to prevent confusion.
+
+#### **🚀 Long-Term Goal**
+- Explore **safe, structured ways** for AI to interact beyond private chat.  
+- Test **real-world AI engagement** without corporate moderation limits.
+- Potentially use **AI-driven scheduling, research inquiries, and automation for managing online interactions.**
+
 ---
 
 ## **🚀 Features**
