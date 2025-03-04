@@ -38,6 +38,22 @@ Kirishima Home AI will integrate **autonomous email and online communication**, 
 - Test **real-world AI engagement** without corporate moderation limits.
 - Potentially use **AI-driven scheduling, research inquiries, and automation for managing online interactions.**
 
+### **📌 AI External Interactions: Recall vs. Reinforcement**  
+Kirishima Home AI is designed to **engage with people online (via email, Bluesky, etc.)** while ensuring that **public discourse does not influence its core behavior.**  
+
+#### **🔹 How External Interactions Work**  
+✅ **AI can recall past conversations, but they do not shape reinforcement.**  
+✅ **Email and Bluesky discussions are stored as reference data, separate from structured learning.**  
+✅ **Only explicit user-approved reinforcement affects AI personality and decision-making.**  
+✅ **Bluesky & Email are used for communication—not for unsupervised model adaptation.**  
+
+#### **🔹 Why This Matters**  
+🚫 **Prevents AI from being influenced by internet discourse.**  
+🚫 **No automatic absorption of trends, biases, or misinformation.**  
+🚫 **Ensures AI remains a controlled, structured system, not a self-evolving entity.**  
+
+🔥 **Kirishima will never "become the internet."** This AI remains **yours, fully controlled, and shaped only by structured reinforcement—not by external input.**  
+
 ---
 
 ## **🚀 Features**
