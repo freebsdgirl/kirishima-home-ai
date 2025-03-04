@@ -8,6 +8,17 @@ Unlike traditional AI assistants, Kirishima Home AI is built to be:
 - **Context-Aware** – Learns user habits, voice interactions, and home automation patterns.
 - **Seamlessly Integrated** – Works with Home Assistant, Node-RED, and local APIs.
 
+### **🖥️ Custom Chat Interface**
+Kirishima Home AI includes a **ChatGPT-style interface** for seamless local AI interaction.  
+- **Why?** The ChatGPT interface is intuitive, but running a local model removes **API limits, moderation, and reliance on external servers.**  
+- **Built With:** Flask + HTML/CSS/JS for a **clean, responsive UI.**  
+- **Features:**
+  ✅ **Persistent chat history** stored in a local SQL database.  
+  ✅ **Markdown support** for clean formatting.  
+  ✅ **Customizable UI themes & layouts.**  
+  ✅ **Optional voice input/output integration.**  
+- **Future Plans:** Extend support for **multi-device interactions** and **mobile-friendly access.**  
+
 ---
 
 ## **🚀 Features**

@@ -62,6 +62,19 @@ This document outlines the architecture for my **local AI system** using **LLaMA
   - **Trigger:** Sensor input, voice command, or button press.
   - **Action:** AI processes the request and sends back a response.
 
+### **🖥️ Custom Chat Interface for Local AI**
+- **Goal:** Build a ChatGPT-like UI for seamless interaction with the local AI model.  
+- **Why?** The ChatGPT interface is intuitive, but using a local model allows for **full control** without API limits or moderation.  
+- **Approach:**  
+  ✅ **Frontend:** Web-based UI built with **Flask + HTML/CSS/JS** for a familiar chat experience.  
+  ✅ **Backend:** Connects to **local Llama 3 API** using OpenAI-compatible API requests.  
+  ✅ **Features:**  
+    - **Persistent chat history** stored in an SQL database.  
+    - **Markdown support** for clean formatting.  
+    - **Customizable themes & UI tweaks.**  
+    - **Optional voice input/output integration.**  
+- **Long-Term Plan:** Eventually replace ChatGPT usage entirely with a **fully self-hosted AI assistant.**  
+
 ---
 
 ## **4️⃣ Storage Considerations**
