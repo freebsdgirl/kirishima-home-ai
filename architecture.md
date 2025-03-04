@@ -81,22 +81,6 @@ This document outlines the architecture for my **local AI system** using **LLaMA
 
 ---
 
-## **5️⃣ Home Assistant Configuration Management**
-✅ **AI managing HA configuration is planned for future implementation.**  
-✅ **Home Assistant is moving away from YAML, which may affect AI control methods.**  
-✅ **User will investigate the `.config` directory inside HA to determine how configuration is stored.**  
-✅ **If YAML remains, AI can modify files directly; if HA shifts to UI-based settings, AI will need API-driven configuration changes.**  
-
----
-
-## **6️⃣ AI-Driven Automation Learning & Refinement**
-✅ **AI detects patterns via InfluxDB logs and suggests automation rules.**  
-✅ **AI only modifies automations it originally created unless explicitly told otherwise.**  
-✅ **AI confirms major behavior shifts before adjusting automations.**  
-✅ **Rejected automations (and reasons) are stored to refine future suggestions.**  
-
----
-
 ## **📦 Rack & Power Planning**
 - **User is setting up a permanent rack mount system.**
 - **Plan:** 4U enclosure for AI server, rack-mountable UPS, and PoE switch.
@@ -117,6 +101,22 @@ This document outlines the architecture for my **local AI system** using **LLaMA
 - **UPS required for AI server** (network UPS already in place).  
 - **Rack-mountable UPS planned** for power protection & clean setup.  
 - **Placement must allow for proper cooling & ventilation.**  
+
+---
+
+## **5️⃣ Home Assistant Configuration Management**
+✅ **AI managing HA configuration is planned for future implementation.**  
+✅ **Home Assistant is moving away from YAML, which may affect AI control methods.**  
+✅ **User will investigate the `.config` directory inside HA to determine how configuration is stored.**  
+✅ **If YAML remains, AI can modify files directly; if HA shifts to UI-based settings, AI will need API-driven configuration changes.**  
+
+---
+
+## **6️⃣ AI-Driven Automation Learning & Refinement**
+✅ **AI detects patterns via InfluxDB logs and suggests automation rules.**  
+✅ **AI only modifies automations it originally created unless explicitly told otherwise.**  
+✅ **AI confirms major behavior shifts before adjusting automations.**  
+✅ **Rejected automations (and reasons) are stored to refine future suggestions.**  
 
 ---
 
